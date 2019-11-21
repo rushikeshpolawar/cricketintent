@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#777f9e">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Teams"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            />
+
+        <Button
+            android:padding="10dp"
+            android:layout_margin="15dp"
+            android:id="@+id/b1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="India"
+            android:textSize="35dp"
+            android:background="#273be2"/>
+        <Button
+            android:padding="10dp"
+            android:layout_margin="15dp"
+            android:id="@+id/b2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Austrila"
+            android:textSize="35dp"
+            android:background="#ffea00"/>
+        <Button
+            android:padding="10dp"
+            android:layout_margin="15dp"
+            android:id="@+id/b3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="South Africa"
+            android:textSize="35dp"
+            android:background="#00cc00"/>
+        <Button
+            android:padding="10dp"
+            android:layout_margin="15dp"
+            android:id="@+id/b4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New Zealand"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:background="#141414"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:id="@+id/submit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="Submit"
+                android:textSize="30dp"/>
+        </RelativeLayout>
+        >
+
+
+    </LinearLayout>
+
+</LinearLayout>
